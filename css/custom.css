@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	overflow: hidden;
+}
+.header{
+	font-size: 16px;
+	width: 100%;
+	background-color: #f3f3f3;
+	padding: 20px;
+}
+.header div{
+	padding-top: 10px;
+}
+body{
+	background: #fdfdfd;
+	font: 12px arial;
+}
+h1{
+	margin: 50px 20%;
+	font: 20px arial;
+	padding-bottom: 20px;	
+	border-bottom: 2px solid  #ddd;
+}
+
+button{
+  position: relative;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  background: #89669b;
+  color: white;
+  padding: 18px 60px;
+  border-radius: 2px;
+  font-size: 22px;
+}
+
+.fab{
+  border-radius: 50%;
+  margin:0;
+  padding: 20px;
+}
+
+.material{
+  position:relative;
+  color:white;
+  margin: 20px auto;
+  height:400px;
+  width:500px;
+  background:#f45673;
+  
+}
+
+.ripple{
+  overflow:hidden;
+}
+
+.ripple-effect{
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: white;
+  -webkit-animation: ripple-animation 2s;   
+  animation: ripple-animation 2s;
+}
+
+
+@keyframes ripple-animation {
+    from {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    to {
+      transform: scale(100);
+      opacity: 0;
+    }
+}
+
+@-webkit-keyframes ripple-animation {
+    from {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    to {
+      transform: scale(100);
+      opacity: 0;
+    }
+}
+.container{
+	margin: 50px 20%;
+}
